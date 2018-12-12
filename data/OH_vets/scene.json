@@ -1,0 +1,79 @@
+{
+  "type": "scene",
+  "properties": {
+    "height": 99.49899799599199,
+    "width": 100.0,
+    "baseExtent": [
+      -84.92784499999998,
+      38.11825182865732,
+      -80.411165,
+      42.612303171342674
+    ],
+    "crs": "EPSG:4269",
+    "proj": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+    "rotation": 0,
+    "wgs84Center": {
+      "lat": 40.3652775,
+      "lon": -82.66950499999999
+    },
+    "zExaggeration": 1.0,
+    "zShift": 0.0
+  },
+  "layers": [
+    {
+      "type": "layer",
+      "id": 0,
+      "properties": {
+        "name": "OH2",
+        "queryable": 1,
+        "visible": true,
+        "type": "polygon",
+        "objType": "Extruded"
+      },
+      "data": {
+        "materials": [
+          {
+            "type": 0,
+            "c": 1277498
+          },
+          {
+            "type": 2,
+            "c": 2302755
+          },
+          {
+            "type": 0,
+            "c": 11722923
+          },
+          {
+            "type": 0,
+            "c": 8112252
+          },
+          {
+            "type": 0,
+            "c": 4040538
+          },
+          {
+            "type": 0,
+            "c": 14545623
+          },
+          {
+            "type": 0,
+            "c": 17435
+          },
+          {
+            "type": 0,
+            "c": 16252149
+          }
+        ],
+        "blocks": [
+          {
+            "url": "./data/OH_vets/L0_GEOM0.json"
+          },
+          {
+            "url": "./data/OH_vets/L0_GEOM1.json"
+          }
+        ]
+      }
+    }
+  ]
+}
